@@ -28,6 +28,12 @@ Pre-event work, tracked here per the event's transparency rules. Commit history 
 
 - [x] Repo baseline, specs
 - [x] Vite/React/TS/Tailwind/Vitest scaffold (pnpm)
+- [x] CLAUDE.md (agreed plan)
+- [x] Shared contracts (`src/types/contracts.ts`) and `recommend()` stub
+- [x] Audio player: two elements, cut, 2-4 s crossfade, `startAtSec`, gesture-gated (unit-tested)
+- [x] Dev player test page (Cut / Crossfade / Crossfade to drop)
+- [ ] Generated dev clips + `dropAtSec` tags: **blocked, `ffmpeg` not installed** (see `src/data/TRACKS_TODO.md`)
+- [ ] Real 12-16 track catalog with hand-tagged drops
 
 ## Built during HackOHI/O
 
